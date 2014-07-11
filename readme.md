@@ -1,3 +1,7 @@
+Angular Basics
+==========================
+Short comparison of Angular and jQuery
+
 jQuery vs Angular Comparison
 ======================
 
