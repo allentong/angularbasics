@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+      <input class="girlfriend" ng-model="boyfriend"> <br><br>
+
+      Div 1: <div class="boyfriend"></div> <br>
+
+      Div 2: <div class="boyfriend"></div> <br>
+
+      <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script>
+        $(function () {
+          $(".girlfriend").on("change", function () {
+            $(".boyfriend").text($(this).val());
+          });
+
+        });
+      </script>
+  </body>
+</html>
